@@ -7,7 +7,7 @@ gem 'jwt'
 # Gemfile
 gem 'rack-cors', :require => 'rack/cors'
 
-gem 'redis', '~> 4.0'
+gem 'redis', '~> 5.3'
 gem 'actioncable', '~> 7.0'
 
 gem 'byebug'
