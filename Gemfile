@@ -1,7 +1,20 @@
 source "https://rubygems.org"
 
+
+gem 'activerecord-sqlserver-adapter', '~> 7.0'
+gem 'tiny_tds'
+gem 'jwt'
+# Gemfile
+gem 'rack-cors', :require => 'rack/cors'
+
+gem 'redis', '~> 4.0'
+gem 'actioncable', '~> 7.0'
+
+gem 'byebug'
+
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 8.0.0"
+gem 'rails', '~> 7.0.0'
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", ">= 2.1"
 # Use the Puma web server [https://github.com/puma/puma]
