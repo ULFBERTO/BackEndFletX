@@ -7,7 +7,6 @@ Rails.application.routes.draw do
   get '/table/:tableN', to: 'dynamic#index'
   get '/procedure/:procedurename', to: 'dynamic_procedure#index'
   get '/procedure/:procedurename/:Valor', to: 'dynamic_procedureparam#index'
-  
   get '/procedure/:proceduregeo', to: 'dynamic_proceduregeo#index'
   
 
