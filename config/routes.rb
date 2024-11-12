@@ -8,8 +8,6 @@ Rails.application.routes.draw do
   get '/procedure/:procedurename', to: 'dynamic_procedure#index'
   get '/procedure/:procedurename/:Valor', to: 'dynamic_procedureparam#index'
   get '/procedure/:proceduregeo', to: 'dynamic_proceduregeo#index'
-  
-
   post 'login', to: 'authentication#login'
   
   # Defines the root path route ("/")
