@@ -231,8 +231,8 @@ GEM
       railties (>= 7)
     solid_queue (0.1.2)
       rails (>= 7.0.3.1)
-    sqlite3 (2.2.0-x64-mingw-ucrt)
-    sqlite3 (2.2.0-x86_64-linux-gnu)
+    sqlite3 (2.3.1-x64-mingw-ucrt)
+    sqlite3 (2.3.1-x86_64-linux-gnu)
     sshkit (1.23.2)
       base64
       net-scp (>= 1.1.2)
